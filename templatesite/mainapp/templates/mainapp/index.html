@@ -1,0 +1,9 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block content %}
+    {% include 'mainapp/includes/inc_main_menu.html' %}
+    <H1>Главная страница</H1>
+    
+
+    <img src="{% static 'img/1.jpg' %}" alt="photo">
+{% endblock %}
